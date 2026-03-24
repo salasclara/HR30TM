@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home Reset 30™ — Transforma tu hogar en 15 minutos al día</title>
+<!-- Meta Pixel -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','1557797061999966');
+fbq('track','PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1557797061999966&ev=PageView&noscript=1"/></noscript>
+<!-- Fin Meta Pixel -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;color:#2c1a0e;background:#fdf6ee;line-height:1.6}
+h1,h2,h3{font-family:'Playfair Display',serif}
+
+/* HERO */
+.hero{background:#2d1a0e;color:#fff;padding:88px 24px 96px;text-align:center}
+.badge{display:inline-block;border:1px solid #c8571b;color:#c8571b;font-size:11px;letter-spacing:2px;text-transform:uppercase;padding:6px 18px;border-radius:50px;margin-bottom:30px;font-weight:500}
+.hero h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.2;max-width:740px;margin:0 auto 22px}
+.hero h1 em{color:#e8855a;font-style:italic}
+.hero-sub{font-size:clamp(1rem,2vw,1.15rem);color:rgba(255,255,255,.8);max-width:560px;margin:0 auto 38px;font-weight:300}
+.pills{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:42px}
+.pill{background:rgba(200,87,27,.18);border:1px solid rgba(200,87,27,.5);color:#fff;font-size:13px;padding:7px 16px;border-radius:50px;display:flex;align-items:center;gap:6px}
+.pill::before{content:"✓";color:#e8855a;font-weight:700}
+.btn{display:inline-block;background:#c8571b;color:#fff;font-family:'DM Sans',sans-serif;font-weight:600;font-size:1rem;padding:16px 38px;border-radius:50px;text-decoration:none;border:none;cursor:pointer;transition:background .2s,transform .15s;box-shadow:0 4px 24px rgba(200,87,27,.45)}
+.btn:hover{background:#a84415;transform:translateY(-2px)}
+.price-row{margin-top:24px;display:flex;align-items:center;justify-content:center;gap:12px}
+.price-old{color:rgba(255,255,255,.38);font-size:1.1rem;text-decoration:line-through}
+.price-now{color:#e8855a;font-family:'Playfair Display',serif;font-size:2.1rem;font-weight:700}
+.price-save{background:#c8571b;color:#fff;font-size:11px;font-weight:700;padding:3px 11px;border-radius:50px}
+
+/* SHARED */
+.sec{padding:76px 24px}
+.wrap{max-width:860px;margin:0 auto}
+.lbl{font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:#c8571b;font-weight:600;display:block;margin-bottom:10px}
+.ttl{font-size:clamp(1.55rem,3.5vw,2.35rem);line-height:1.25;margin-bottom:14px}
+.bar{width:44px;height:2px;background:#c8571b;margin:12px 0 30px}
+.bar.c{margin:12px auto 30px}
+
+/* PROBLEMA */
+.problema{background:#fdf6ee}
+.problema-sub{color:#6b4c38;max-width:540px;margin-bottom:36px;font-size:1.02rem}
+.bullets{list-style:none;display:flex;flex-direction:column;gap:13px}
+.bullets li{display:flex;align-items:flex-start;gap:14px;background:#fff;border:1px solid #e8ddd4;border-radius:14px;padding:17px 20px;font-size:.96rem;color:#6b4c38}
+.bi{font-size:1.3rem;flex-shrink:0;margin-top:2px}
+
+/* QUÉ ES */
+.quees{background:#f5ede0;text-align:center}
+.quees-sub{color:#6b4c38;max-width:510px;margin:0 auto;font-size:.96rem}
+.grid4{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:44px}
+.card{background:#fff;border-radius:20px;padding:34px 22px;border:1px solid rgba(200,87,27,.18);box-shadow:0 2px 16px rgba(44,26,14,.06)}
+.cnum{font-family:'Playfair Display',serif;font-size:3rem;font-weight:700;color:#c8571b;line-height:1;margin-bottom:8px}
+.clbl{font-size:.94rem;color:#6b4c38;font-weight:500}
+.cdesc{font-size:.81rem;color:#9a8070;margin-top:6px}
+
+/* QUÉ INCLUYE */
+.incluye{background:#2d1a0e;color:#fff}
+.incluye .lbl{color:#e8855a}
+.incluye .ttl{color:#fff}
+.inc-list{list-style:none;display:flex;flex-direction:column;gap:11px;margin-bottom:34px}
+.inc-list li{display:flex;align-items:center;gap:13px;background:rgba(255,255,255,.07);border:1px solid rgba(200,87,27,.28);border-radius:12px;padding:14px 18px;font-size:.94rem;color:rgba(255,255,255,.88)}
+.inc-list li strong{color:#fff}
+.ico{font-size:1.3rem;flex-shrink:0}
+.bono{display:inline-block;background:#c8571b;color:#fff;font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:2px 9px;border-radius:50px;margin-left:6px;vertical-align:middle}
+
+/* TESTIMONIOS */
+.testi{background:#fdf6ee}
+.tgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.tc{background:#fff;border-radius:18px;padding:28px 22px;border:1px solid #e8ddd4;box-shadow:0 2px 10px rgba(44,26,14,.05)}
+.stars{color:#c8571b;font-size:1.05rem;letter-spacing:2px;margin-bottom:13px}
+.ttext{font-size:.94rem;color:#6b4c38;line-height:1.65;margin-bottom:16px;font-style:italic}
+.tname{font-weight:600;color:#2c1a0e;font-size:.89rem}
+.tcity{font-size:.81rem;color:#9a8070}
+
+/* GARANTÍA */
+.garantia{background:#f5ede0}
+.gbox{max-width:580px;margin:0 auto;background:#fff;border:2px solid #c8571b;border-radius:22px;padding:46px 38px;text-align:center;box-shadow:0 4px 30px rgba(200,87,27,.12)}
+.gbox h3{font-size:1.5rem;margin-bottom:12px;color:#2c1a0e}
+.gbox p{color:#6b4c38;font-size:.96rem;line-height:1.75}
+
+/* CTA FINAL */
+.ctafinal{background:#2d1a0e;color:#fff;text-align:center}
+.ctafinal .ttl{color:#fff;margin-bottom:8px}
+.cta-sub{color:rgba(255,255,255,.58);margin-bottom:32px;font-size:.97rem}
+.ctaold{color:rgba(255,255,255,.35);font-size:1.05rem;text-decoration:line-through;margin-bottom:4px}
+.ctanow{font-family:'Playfair Display',serif;font-size:4rem;font-weight:700;color:#e8855a;line-height:1}
+.ctausd{color:rgba(255,255,255,.42);font-size:.88rem;margin:6px 0 28px}
+.badges{display:flex;flex-wrap:wrap;justify-content:center;gap:18px;margin-top:38px}
+.bdg{display:flex;align-items:center;gap:8px;color:rgba(255,255,255,.58);font-size:.83rem;font-weight:500}
+
+footer{background:#1a0d04;color:rgba(255,255,255,.3);text-align:center;padding:24px;font-size:.79rem}
+footer a{color:rgba(255,255,255,.38);text-decoration:none}
+
+@media(max-width:640px){
+  .sec{padding:58px 18px}
+  .grid4{grid-template-columns:1fr}
+  .gbox{padding:32px 20px}
+  .ctanow{font-size:3rem}
+}
+</style>
+</head>
+<body>
+
+<!-- ══ HERO ══ -->
+<section class="hero" id="hero">
+  <span class="badge">✦ Nuevo Sistema Digital ✦</span>
+  <h1>¿Tu casa se siente <em>caótica</em> aunque limpies todos los días?</h1>
+  <p class="hero-sub">Home Reset 30™ es el sistema de 15 minutos al día que te ayuda a crear hábitos reales de orden — no solo limpiar, sino <em>mantener</em> tu hogar bajo control en 30 días.</p>
+  <div class="pills">
+    <span class="pill">15 min al día</span>
+    <span class="pill">Plan de 30 días</span>
+    <span class="pill">App interactiva incluida</span>
+    <span class="pill">Funciona en apartamentos</span>
+  </div>
+  <a href="#cta" class="btn" id="heroBtn">Quiero mi Home Reset 30™ →</a>
+  <div class="price-row">
+    <span class="price-old">$37</span>
+    <span class="price-now">$27</span>
+    <span class="price-save">AHORRAS $10</span>
+  </div>
+</section>
+
+<!-- ══ PROBLEMA ══ -->
+<section class="sec problema">
+  <div class="wrap">
+    <span class="lbl">El ciclo que ya conoces</span>
+    <h2 class="ttl">Limpias, ordenas… y al día siguiente todo vuelve a estar igual.</h2>
+    <div class="bar"></div>
+    <p class="problema-sub">No es falta de esfuerzo ni de disciplina. Es que nadie te enseñó un <strong>sistema</strong> que funcione para tu vida real.</p>
+    <ul class="bullets">
+      <li><span class="bi">😔</span><span>Pasas horas limpiando el fin de semana, pero entre el trabajo, los niños y las responsabilidades, la casa vuelve al caos en 48 horas.</span></li>
+      <li><span class="bi">🌀</span><span>Sientes culpa cuando tu casa no está perfecta — cuando en realidad el problema es la falta de un método, no de ganas.</span></li>
+      <li><span class="bi">😓</span><span>Has probado planners, listas de Pinterest y videos de YouTube… pero nada se adapta a tu ritmo, tu espacio ni tu idioma.</span></li>
+      <li><span class="bi">🏃‍♀️</span><span>Vives corriendo de un lado a otro y lo último que quieres es otra rutina complicada que se sienta como otro trabajo.</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ══ QUÉ ES ══ -->
+<section class="sec quees">
+  <div class="wrap">
+    <span class="lbl">El sistema</span>
+    <h2 class="ttl">Un método completo, diseñado para ti</h2>
+    <div class="bar c"></div>
+    <p class="quees-sub">Home Reset 30™ combina un plan estructurado, rutinas diarias y una app interactiva para que el orden sea un hábito — no una tarea de fin de semana.</p>
+    <div class="grid4">
+      <div class="card"><div class="cnum">4</div><div class="clbl">Semanas de sistema</div><div class="cdesc">Cada semana con un enfoque distinto para construir hábitos paso a paso.</div></div>
+      <div class="card"><div class="cnum">30</div><div class="clbl">Días de transformación</div><div class="cdesc">Un plan diario claro: sabes exactamente qué hacer y cuándo.</div></div>
+      <div class="card"><div class="cnum">12</div><div class="clbl">Secciones del hogar</div><div class="cdesc">Cocina, cuartos, baños, sala y más — todo cubierto estratégicamente.</div></div>
+      <div class="card"><div class="cnum">+App</div><div class="clbl">Interactiva incluida</div><div class="cdesc">Checklists digitales, seguimiento y recordatorios para mantenerte on track.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ QUÉ INCLUYE ══ -->
+<section class="sec incluye">
+  <div class="wrap">
+    <span class="lbl">Todo lo que recibes</span>
+    <h2 class="ttl">Cada herramienta que necesitas para lograrlo</h2>
+    <div class="bar" style="background:rgba(200,87,27,.45)"></div>
+    <ul class="inc-list">
+      <li><span class="ico">📅</span><div><strong>Plan de 30 días</strong> — Tu hoja de ruta diaria, sin adivinar qué sigue.</div></li>
+      <li><span class="ico">🌅</span><div><strong>Rutina AM</strong> — Mañana poderosa de 10–15 min para empezar bien.</div></li>
+      <li><span class="ico">🌙</span><div><strong>Rutina PM</strong> — El reset nocturno que hace mañana más fácil.</div></li>
+      <li><span class="ico">📋</span><div><strong>Rutina semanal y mensual</strong> — Tareas profundas en su momento exacto.</div></li>
+      <li><span class="ico">✅</span><div><strong>Checklists imprimibles</strong> — Marca tu progreso y siéntelo real.</div></li>
+      <li><span class="ico">🏠</span><div><strong>Inventario del hogar</strong> — Sabe qué tienes, dónde está y qué te falta.</div></li>
+      <li><span class="ico">📱</span><div><strong>App interactiva</strong><span class="bono">BONO</span> — Lleva tu sistema siempre contigo.</div></li>
+    </ul>
+    <a href="https://pay.hotmart.com/Q103633348N?checkoutMode=10" class="btn">Quiero el sistema completo →</a>
+  </div>
+</section>
+
+<!-- ══ TESTIMONIOS ══ -->
+<section class="sec testi">
+  <div class="wrap">
+    <span class="lbl" style="display:block;text-align:center">Resultados reales</span>
+    <h2 class="ttl" style="text-align:center">Ellas ya lo están viviendo</h2>
+    <div class="bar c"></div>
+    <div class="tgrid">
+      <div class="tc"><div class="stars">★★★★★</div><p class="ttext">"Nunca pensé que 15 minutos podían hacer tanta diferencia. Llevo 3 semanas y mi apartamento se mantiene ordenado por primera vez en años."</p><div class="tname">María R.</div><div class="tcity">Miami, FL</div></div>
+      <div class="tc"><div class="stars">★★★★★</div><p class="ttext">"Trabajo full time y tengo dos hijos. Home Reset 30™ es exactamente eso: diseñado para la vida real, no para Instagram."</p><div class="tname">Carmen L.</div><div class="tcity">Houston, TX</div></div>
+      <div class="tc"><div class="stars">★★★★★</div><p class="ttext">"La app es un game changer. Mi casa se siente diferente — más tranquila, más mía. ¡Vale cada centavo!"</p><div class="tname">Ana P.</div><div class="tcity">Nueva York, NY</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ GARANTÍA ══ -->
+<section class="sec garantia">
+  <div class="wrap">
+    <div class="gbox">
+      <div style="font-size:3.2rem;margin-bottom:14px">🛡️</div>
+      <h3>Garantía Total de 30 Días</h3>
+      <div class="bar c"></div>
+      <p>Si en los próximos 30 días sientes que Home Reset 30™ no fue lo que esperabas, te devolvemos el 100% de tu dinero. Sin preguntas, sin formularios complicados, sin drama. Entra con total confianza.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA FINAL ══ -->
+<section class="sec ctafinal" id="cta">
+  <div class="wrap">
+    <span class="lbl">Empieza hoy</span>
+    <h2 class="ttl">Tu hogar puede sentirse diferente<br>en solo 30 días</h2>
+    <p class="cta-sub">Acceso inmediato al sistema completo + App interactiva de bono</p>
+    <div class="ctaold">Precio regular: $37</div>
+    <div class="ctanow">$27</div>
+    <div class="ctausd">USD — pago único, tuyo para siempre</div>
+    <a href="https://pay.hotmart.com/Q103633348N?checkoutMode=10" class="btn" style="font-size:1.05rem;padding:17px 44px">Quiero mi Home Reset 30™ →</a>
+    <div class="badges">
+      <div class="bdg">🔒 Pago 100% seguro</div>
+      <div class="bdg">⚡ Descarga inmediata</div>
+      <div class="bdg">🛡️ Garantía 30 días</div>
+      <div class="bdg">📱 App incluida</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Home Reset 30™ — Todos los derechos reservados.</p>
+  <p style="margin-top:8px"><a href="#">Política de privacidad</a> &nbsp;·&nbsp; <a href="#">Términos y condiciones</a> &nbsp;·&nbsp; <a href="#">Contacto</a></p>
+</footer>
+
+<script>
+  document.getElementById('heroBtn').addEventListener('click', function(e){
+    e.preventDefault();
+    document.getElementById('cta').scrollIntoView({behavior:'smooth'});
+  });
+</script>
+</body>
+</html>
